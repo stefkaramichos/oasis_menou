@@ -1,0 +1,449 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+   <style>
+    @media(max-width:736px){
+       /* The navigation menu */
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+/* Navigation links */
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* The subnavigation menu */
+.subnav {
+  float: left;
+  overflow: hidden;
+}
+
+/* Subnav button */
+.subnav .subnavbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+/* Add a red background color to navigation links on hover */
+.navbar a:hover, .subnav:hover .subnavbtn {
+  background-color: red;
+}
+
+/* Style the subnav content - positioned absolute */
+.subnav-content {
+  display: none;
+  position: absolute;
+  left: 0;
+  background-color: red;
+  width: 100%;
+  z-index: 1;
+}
+
+/* Style the subnav links */
+.subnav-content a {
+  float: left;
+  color: white;
+  text-decoration: none;
+}
+
+/* Add a grey background color on hover */
+.subnav-content a:hover {
+  background-color: #eee;
+  color: black;
+}
+
+/* When you move the mouse over the subnav container, open the subnav content */
+.subnav:hover .subnav-content {
+  display: block;
+}
+    }
+    </style>
+</head>
+<body>
+  <aside>
+    
+    <img style="float: left;" src="IMG_2469.png" alt="logo" height="150">
+    <p style="float: left; font-family: 'STIX Two Text', Sans-serif; margin-top: 50px;margin-left: 10%; font-size: 25px; ">
+      Το μενού μας εμφανίζεται μόνο σε κινητά και tablet! 
+    </p>
+  </aside>
+    <header>
+        <div class="header-container" style=" width: 80%; margin-right: 10%; margin-left: 15%;">
+            <div class="logo" style="text-align: left;  width: 32%;"><img src="IMG_2469.png" alt="logo" height="150"></div>
+            <div class="name" style="text-align: center;width:29%; padding-right: 5%; margin-top: 42px;"><h2>Μενού</h2></div>
+            <div class="thl" style="text-align: center; width:29%; padding-right: 5%;    margin-top: 22px; "> Τηλ. επικοινωνίας<br><a  href="tel:00306980787246">6980787246</a></div>
+        </div>
+    </header>
+    
+    
+    <div class="navbar" style="width:100%;padding-top: 0px; overflow:visible; padding-bottom: 100px; z-index: 3;  background: -webkit-linear-gradient(top, black 50%, white 25%);">
+       
+        <div class="subnav" >
+            <button class="subnavbtn" style="background-color: #C8B26B;  margin-left: 50px;">Καφετέρια <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content" style="background-color: black; ">
+            <a href="#kafe" >Καφέδες</a>
+            <a href="#rof">Ροφήματα</a>
+            <a href="#ximoi">Χυμοί</a>
+            <a href="#anaps">Αναψυκτικά</a>
+            <a href="#pota">Ποτά</a>
+            <a href="#mpires">Μπύρες</a>
+            <a href="#krasia">Κρασιά</a>
+            <a href="#tsipoura">Τσίπουρα</a>
+            <a href="#snacks"><span style="font-size: 10px;">Σνακ-Μεζέδες</a>
+              <a href="#pagota">Παγωτά</a>
+              <a href="#glyka">Γλυκά</a>
+            </div>
+        </div>
+        <div class="subnav">
+            <button class="subnavbtn" style="background-color: #C8B26B; margin-right: 50px;">Ταβέρνα <i class="fa fa-caret-down"></i></button>
+            <div class="subnav-content" style="background-color: black;">
+              <a href="#orektika">Ορεκτικά</a>
+            <a href="#salates">Σαλάτες</a>
+            <a href="#thalassina">Θαλασσινά</a>
+            <a href="#psita">Ψητά της Ώρας</a>
+            <a href="#souvles">Σούβλες</a>
+            <a href="#potatav">Ποτά</a>
+            </div>
+        </div>
+        
+    </div>
+    <main>
+      <section id="kafe" style="height: 600px; ">
+        <h2>Καφέδες</h2>
+         <img src="Freddo-Cover.png" alt="coffee" height="150">
+            
+           
+            <article><p>Freddo Espresso</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Freddo Cappuccino</p><p style="font-weight:100">2.70&euro;</p></article>
+            <article><p>Frappe/Nes</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Ελληνικός</p><p style="font-weight:100">2.00&euro;</p></article>
+            <article><p>Ελληνικός διπλός</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Εspresso</p><p style="font-weight:100">2.00&euro;</p></article>
+            <article><p>Εspresso διπλός</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Cappuccino</p><p style="font-weight:100">2.70&euro;</p></article>
+            <article><p>Cappuccino διπλός</p><p style="font-weight:100">3.20&euro;</p></article>
+            <article><p>Americano</p><p style="font-weight:100">2.50&euro;</p></article>
+            
+         
+      </section>
+      <a href="#kafe"><img src="PhotoRoom_20230530_121711.PNG" alt="back to top" height="45" style="position: fixed; left:315px; top:650px; z-index: 3;"></a>
+      <section id="rof" style="height: 500px;">
+            <h2>Ροφήματα</h2><br>
+            <img src="asas.png" alt="coffee" height="150">
+            <article><p   style= "height: 48px;  padding-top: 10px;">Σοκολάτα κρύα/ζεστή</p><p style="font-weight:100; padding-right: 5%; height: 48px; padding-top: 10px;">2.50&euro;</p></article>
+            <article><p >Τσάι κρύο<br><span style="font-size: 11px; text-align: left;padding-right:10px;">(Λεμόνι,&nbsp;Ροδάκινο,&nbsp;Πράσινο)</span></p><p style="font-weight:100;  padding-right: 5%; height: 57px; padding-top: 10px;">2.50&euro;</p></article>
+            <article><p>Γρανίτα<span style="font-size: 11px; text-align: left; padding-right:10px;"><br>(Φράουλα Λεμόνι,&nbsp;Βατόμουρο,&nbsp;Πράσινο&nbsp;Μήλο)</span></p><p style="font-weight:100; height: 57px; padding-right: 4%; padding-top: 10px;">2.50&euro;</p></article>
+            <article><p>Milkshake</p><p style="font-weight:100">2.50&euro;</p></article>
+            
+          
+      </section>
+      <section id="ximoi" style="height: 680px;">
+            <h2>Χυμοί</h2><br>
+            <img src="ORANGE-JUICE.png" alt="coffee" height="150">
+            <article><p>Amita Βύσσινο</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Amita Μπανάνα</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Amita Πορτοκάλι</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Amita Φράουλα</p><p style="font-weight:100">2.00&euro;</p></article>
+            <article><p>Amita Ανάμεικτος</p><p style="font-weight:100">2.50&euro;</p></article>
+            <article><p>Φυσικός Χυμός Πορτοκάλι</p><p style="font-weight:100; ">3.00&euro;</p></article>
+            <article><p>Φυσικός Χυμός Ρόδι</p><p style="font-weight:100;">3.50&euro;</p></article>
+            <article><p>Φυσικός Χυμός Ανάμεικτος</p><p style="font-weight:100;">4.00&euro;</p></article>
+            <article><p>Παιδικός Χυμός Ανάμεικτος</p><p style="font-weight:100;">2.50&euro;</p></article>
+            
+           
+           
+           
+            
+      </section> 
+      <section id="anaps" style="height: 730px;">
+        <h2>Αναψυκτικά</h2><br>
+        <img src="image(1).png" alt="coffee" height="130">
+        <article><p>Coca Cola</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Coca Cola Zero</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Πορτοκαλάδα</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Λεμονάδα</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Σουρωτή</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Γκαζόζα</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Τόνικ</p><p style="font-weight:100">2.00&euro;</p></article>
+        <article><p>Σόδα Μοχίτο</p><p style="font-weight:100">2.50&euro;</p></article>
+        <article><p>Ροζ Σόδα</p><p style="font-weight:100">2.50&euro;</p></article>
+        <article><p>Σπιτική Λεμονάδα</p><p style="font-weight:100">3.00&euro;</p></article>
+        <article><p>Παραδοσιακό Αναψυκτικό <span style="font-size: 11px;"><br>(Φράουλα, Λεμόνι, Πορτοκάλι, Βύσσινο, Ρόδι - Λεμόνι)</span></p><p style="font-weight:100;height: 57px; padding-top: 10px;">3.00&euro;</p></article>
+        
+        
+  </section> 
+  <section id="pota" style="height: 370px;">
+    <h2>Ποτά</h2><br>
+    <img src="PhotoRoom_000_20230529_201517.PNG" alt="coffee" height="150">
+    <article><p>Aπλό</p><p style="font-weight:100">6.00&euro;</p></article>
+    <article><p>Σπέσιαλ</p><p style="font-weight:100">7.00&euro;</p></article>
+    <article><p>Red Bull</p><p style="font-weight:100">3.00&euro;</p></article>
+    <article><p>Gordon's Space</p><p style="font-weight:100">4.00&euro;</p></article>
+
+
+    
+</section> 
+<section id="mpires"  style="height: 590px;">
+  
+  <h2>Μπύρες</h2><br>
+  <img src="mpffira.png" alt="coffee" height="150">
+  <p style="text-align: right; padding-right: 9%;">330ml&nbsp;&nbsp;500ml</p>
+  <article><p style="width:52%;">Βαρέλι</p><p style="font-weight:100; padding-right: 2%; width:38%;">3.00&euro;&nbsp;&nbsp;3.50&euro;</p></article>
+  <article><p>Άλφα</p><p style="font-weight:100;  padding-right: 2%;">3.50&euro;</p></article>
+  <article><p>Amstel</p><p style="font-weight:100; padding-right: 2%;">3.50&euro;</p></article>
+  <article><p>Βεργίνα</p><p style="font-weight:100; padding-right: 2%;">3.50&euro;</p></article>
+  <article><p>Kaiser</p><p style="font-weight:100; padding-right: 2%;">4.00&euro;</p></article>
+  <article><p style="width:52%;">Fix Άνευ</p><p style="font-weight:100; padding-right: 0%; width:38%;">3.00&euro;&nbsp;&nbsp;<span style="color:white;">3.00&euro;</span></p></article>
+  <article><p style="width:52%;">Amstel Radler</p><p style="font-weight:100; padding-right: 0%; width:38%;">3.00&euro;&nbsp;&nbsp;<span style="color:white;">3.00&euro;</span></p></article>
+  <article><p style="width:52%;">Sol</p><p style="font-weight:100; padding-right: 0%; width:38%;">4.00&euro;&nbsp;&nbsp;<span style="color:white;">3.00&euro;</span></p></article>
+
+ 
+
+  
+</section> 
+
+<section id="krasia"  style="height: 550px;">
+  <h2>Κρασιά</h2><br>
+  <img src="PhotoRoom_004_20230529_201517.PNG" alt="coffee" height="90">
+  <article><p>Mαλαματίνα</p><p style="font-weight:100">3.00&euro;</p></article>
+  <article><p>Γεωργιάδη</p><p style="font-weight:100">3.00&euro;</p></article>
+  <article><p>Κεχριμπάρι</p><p style="font-weight:100;">5.00&euro;</p></article>
+  <article><p>Xύμα Λευκό ποτήρι</p><p style="font-weight:100;">2.50&euro;</p></article>
+  <article><p>Πεντερίδη ποτήρι "Λευκό-Ροζέ"</p><p style="font-weight:100;  height: 57px; padding-top: 10px;">4.00&euro;</p></article>
+  <article><p>Πεντερίδη φιάλη "Λευκό-Ροζέ"</p><p style="font-weight:100; height: 57px; padding-top: 10px;">12.00&euro;</p></article>
+  <article><p>Λευκό Καραμέλο 187ml</p><p style="font-weight:100;">3.50&euro;</p></article>
+  <article><p>Μσχοφίλερο 187ml</p><p style="font-weight:100;">3.50&euro;</p></article>
+
+
+
+  
+</section> 
+
+<section id="tsipoura" style="height: 400px;">
+  <h2>Τσίπουρα</h2><br>
+  <img src="PhotoRoom_20230530_103317.PNG" alt="coffee" height="130">
+  <p style="text-align: right; padding-right: 4%;">Ποτήρι&nbsp;&nbsp;Καραφάκι</p>
+  <article><p style="width:52%;">Γράπα</p><p style="font-weight:100; width:38%;">1.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;4.00&euro;</p></article>
+  <article><p style="width:52%;">Τσίπουρο</p><p style="font-weight:100; width:38%;">1.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;4.00&euro;</p></article>
+  <article><p style="width:52%;">Ούζο</p><p style="font-weight:100; width:38%;">1.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;4.00&euro;</p></article>
+  <article><p style="width:52%;">Ούζο Πλωμάρι</p><p style="font-weight:100; width:38%;">2.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;6.50&euro;</p></article>
+  
+
+</section>
+        
+<section id="snacks" style="height: 760px;">
+  <h2>Σνακ-Μεζέδες</h2><br>
+  <img src="PhotoRoom_002_20230529_201517.PNG" alt="coffee" height="110">
+  <article><p>Club Sandwich</p><p style="font-weight:100">4.50&euro;</p></article>
+  <article><p>Club Κοτόπουλο</p><p style="font-weight:100">5.00&euro;</p></article>
+  <article><p>Κοτομπουκιές</p><p style="font-weight:100">4.00&euro;</p></article>
+  <article><p>Burger</p><p style="font-weight:100">4.00&euro;</p></article>
+  <article><p>Πίτσα Ατομική</p><p style="font-weight:100">3.00&euro;</p></article>
+  <article><p>Πίτσα Οικογενειακή</p><p style="font-weight:100">8.00&euro;</p></article>
+  <article><p>Πίτσα Γίγας</p><p style="font-weight:100">11.00&euro;</p></article>
+  <article><p>Τοστ</p><p style="font-weight:100">2.00&euro;</p></article>
+  <article><p>Sandwich</p><p style="font-weight:100">2.50&euro;</p></article>
+  <article><p>Μεζές Μπύρας/άτομο</p><p style="font-weight:100">2.50&euro;</p></article>
+  <article><p>Μεζές για Τσίπουρο-Ούζο/άτομο</p><p style="font-weight:100;height: 57px; padding-top: 10px;">2.50&euro;</p></article>
+  
+
+</section>
+
+<section id="pagota" style="height: 600px; ">
+  <h2>Παγωτά</h2>
+   <img src="PhotoRoom_20230529_210839.PNG" alt="coffee" height="110">
+      
+     
+      <article><p>Βανίλια</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Σοκολάτα</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Μπανάνα-Φράουλα</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Τσιχλόφουσκα</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Μπισκότο</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Στρατσιατέλα</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Καραμέλα</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Σύκο</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Κανταϊφι</p><p style="font-weight:100">&euro;</p></article>
+        <article><p style="background-color:rgb(245, 245, 245); font-size: 12px; text-align: center;">**Η πρώτη μπάλα 2&euro; και κάθε extra μπάλα 0.50&euro;</p>
+   
+</section>
+
+<section id="glyka" style="height: 410px; ">
+  <h2>Γλυκά</h2>
+   <img src="3d5d3aa0-s1-1280x1024.png" alt="coffee" height="110">
+      
+     
+   <article><p>Σοκολατόπιτα</p><p style="font-weight:100">2.50&euro;</p></article>
+   <article><p>Πορτοκαλόπιτα</p><p style="font-weight:100">2.50&euro;</p></article>
+   <article><p>Κορμός</p><p style="font-weight:100">2.50&euro;</p></article>
+   <article><p>Ρεβανί</p><p style="font-weight:100">2.50&euro;</p></article>
+   <article><p>Βάφλα</p><p style="font-weight:100">...</p></article>
+   <p style="font-size: 11px;">**Η πρώτη μπάλα 2&euro; και κάθε extra μπάλα 0.50&euro;</p>
+      
+   
+</section>
+</main>
+  <footer>
+        <h1 style="margin-top:100px;padding-top:40px;color: black; text-align: center;">Ταβέρνα</h1>
+
+        <section id="orektika" style="height: 900px; ">
+          <h2>Ορεκτικά</h2><br>
+          <img src="stef.PNG" alt="coffee" height="130">
+          <article><p>Πατάτες τηγανιτές</p><p style="font-weight:100">3.00&euro;</p></article>
+          <article><p>Πατάτες με κεφαλοτύρι</p><p style="font-weight:100">3.50&euro;</p></article>
+          <article><p>Μπάτσιος<br></p><p style="font-weight:100;">3.50&euro;</p></article>
+          <article><p>Μπουγιουρντί</p><p style="font-weight:100">3.50&euro;</p></article>
+          <article><p>Φέτα</p><p style="font-weight:100">2.50&euro;</p></article>
+          <article><p>Φέτα με μέλι και σουσάμι<br></p><p style="font-weight:100; ">3.50&euro;</p></article>
+          <article><p>Κασεροκροκέτες</p><p style="font-weight:100">4.00&euro;</p></article>
+          <article><p>Μελιτζάνα γεμιστή με τυρί</p><p style="font-weight:100; ">3.50&euro;</p></article>
+          <article><p>Κολοκυθάκια τηγανιτά</p><p style="font-weight:100">4.00&euro;</p></article>
+          <article><p>Κολοκυθοκεφτέδες</p><p style="font-weight:100">4.00&euro;</p></article>
+          <article><p>Ματιτάρια σχάρας</p><p style="font-weight:100">3.50&euro;</p></article>
+          <article><p>Τζατζίκι</p><p style="font-weight:100">2.50&euro;</p></article>
+          <article><p>Τυροκαφτερή</p><p style="font-weight:100">2.50&euro;</p></article>
+          <article><p>Γεμιστή πιπεριά τουρσί</p><p style="font-weight:100">3.00&euro;</p></article>
+          <article><p>Καυτερή</p><p style="font-weight:100">1.50&euro;</p></article>
+          
+        
+        </section>
+
+        <section id="salates" style="height: 730px; ">
+          <h2>Σαλάτες</h2><br>
+          <img src="PhotoRoom_003_20230530_111610.PNG" alt="coffee" height="180">
+          <article><p>Αγγουροντομάτα</p><p style="font-weight:100">3.00&euro;</p></article>
+          <article><p>Χωριάτικη</p><p style="font-weight:100">5.00&euro;</p></article>
+          <article><p>OASI<br><span style="font-size:12px;">(Ρόκα, Μαρούλι, Ντοματίνι, Κρουτόν, Παρμαζάνα)</span></p><p style="font-weight:100; height: 85px; padding-top: 30px;">5.00&euro;</p></article>
+          <article><p>Παντζάρι</p><p style="font-weight:100">2.50&euro;</p></article>
+          <article><p>Πιπεριές Φλωρίνης</p><p style="font-weight:100">3.00&euro;</p></article>
+          <article><p>Μεσογειακή<br><span style="font-size:12px;">(Σπανάκι, Ρόκα, Μανιτάρι, Ηλιόσποροι, Σως μουστάρδας)</span></p><p style="font-weight:100; height: 85px; padding-top: 30px;">5.00&euro;</p></article>
+          <article><p>Βλήτα</p><p style="font-weight:100">2.50&euro;</p></article>
+          <article><p>Caesars</p><p style="font-weight:100">5.00&euro;</p></article>
+          <article><p>Chef</p><p style="font-weight:100">5.00&euro;</p></article>
+          
+       
+    </section>
+
+    <section id="thalassina" style="height: 400px; ">
+      <h2>Θαλασσινά</h2><br>
+      <img src="PhotoRoom_20230530_130207.PNG" alt="coffee" height="100">
+      
+      <article><p>Σαρδέλα</p><p style="font-weight:100">6.00&euro;</p></article>
+      <article><p>Σαρδέλα σχάρας</p><p style="font-weight:100">6.00&euro;</p></article>
+      <article><p>Γαύρος</p><p style="font-weight:100">6.00&euro;</p></article>
+      <article><p>Καλαμαράκια</p><p style="font-weight:100">7.00&euro;</p></article>
+      <article><p>Καλαμάρι σχάρας</p><p style="font-weight:100">&euro;</p></article>
+      <article><p>Χταπόδι σχάρας</p><p style="font-weight:100">12.00&euro;</p></article>
+      
+   
+</section>
+
+<section id="psita" style="height: 830px;">
+  <h2>Ψητά της Ώρας</h2><br>
+  <img src="PhotoRoom_000_20230530_111610.PNG" alt="coffee" height="130">
+  <p style="text-align: right; padding-right: 8%;">Mερίδα&nbsp;&nbsp;Τεμάχια</p>
+  <article><p style="width:52%;">Βαρέλι</p><p style="font-weight:100; width:38%;">3.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;3.50&euro;</p></article>
+  <article><p style="width:52%;">Σουβλάκι κοτόπουλο</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;2.00&euro;</p></article>
+  <article><p style="width:52%;">Μπιφτέκι</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;2.00&euro;</p></article>
+  <article><p style="width:52%;">Λουκάνικο</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;2.00&euro;</p></article>
+  <article><p style="width:52%;">Πανσέτα</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;2.00&euro;</p></article>
+  <article><p style="width:52%;">Σουτζουκάκι</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;2.00&euro;</p></article>
+  <article><p style="width:52%;">Φιλέτο κοτόπουλο</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;5.00&euro;</p></article>
+  <article><p style="width:52%;">Ψαρονέφρι</p><p style="font-weight:100; width:38%;">7.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;2.00&euro;</p></article>
+  <article><p style="width:52%;">Μπριζόλα χοιρινή</p><p style="font-weight:100; width:38%;">6.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;5.00&euro;</p></article>
+  <article><p style="width:52%;">Μριζόλα μοσχαρίσια</p><p style="font-weight:100; width:38%; padding-left: 2%; text-align: left;">13.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;</p></article>
+  <article><p style="width:52%;">Τηγανιά χοιρινή</p><p style="font-weight:100;  width:38%; padding-left: 2%; text-align: left;">6.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;</p></article>
+  <article><p style="width:52%;">Τηγανιά κοτόπουλο</p><p style="font-weight:100; width:38%; padding-left: 2%; text-align: left; ">6.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;</p></article>
+  
+
+</section>
+
+<section id="souvles" style="height: 250px; ">
+  <h2>Σούβλες</h2><br>
+  <img src="PhotoRoom_002_20230530_111610.PNG" alt="coffee" height="80">
+  
+  <article><p>Κοκορέτσι</p><p style="font-weight:100">10.00&euro;</p></article>
+  <article><p>Κεμπάμπ χοιρινό</p><p style="font-weight:100">7.00&euro;</p></article>
+  <article><p>Κεμπάμπ κοτόπουλο</p><p style="font-weight:100">7.00&euro;</p></article>
+  
+
+</section>
+<section id="potatav"  style="height: 590px;">
+  
+  <h2>Μπύρες</h2><br>
+  <img src="mpffira.png" alt="coffee" height="150">
+  <p style="text-align: right; padding-right: 9%;">330ml&nbsp;&nbsp;500ml</p>
+  <article><p style="width:52%;">Βαρέλι</p><p style="font-weight:100; padding-right: 2%; width:38%;">3.00&euro;&nbsp;&nbsp;3.50&euro;</p></article>
+  <article><p>Άλφα</p><p style="font-weight:100;  padding-right: 2%;">3.50&euro;</p></article>
+  <article><p>Amstel</p><p style="font-weight:100; padding-right: 2%;">3.50&euro;</p></article>
+  <article><p>Βεργίνα</p><p style="font-weight:100; padding-right: 2%;">3.50&euro;</p></article>
+  <article><p>Kaiser</p><p style="font-weight:100; padding-right: 2%;">4.00&euro;</p></article>
+  <article><p style="width:52%;">Fix Άνευ</p><p style="font-weight:100; padding-right: 0%; width:38%;">3.00&euro;&nbsp;&nbsp;<span style="color:rgb(245, 245, 245);">3.00&euro;</span></p></article>
+  <article><p style="width:52%;">Amstel Radler</p><p style="font-weight:100; padding-right: 0%; width:38%;">3.00&euro;&nbsp;&nbsp;<span style="color:rgb(245, 245, 245);">3.00&euro;</span></p></article>
+  <article><p style="width:52%;">Sol</p><p style="font-weight:100; padding-right: 0%; width:38%;">4.00&euro;&nbsp;&nbsp;<span style="color:rgb(245, 245, 245);">3.00&euro;</span></p></article>
+
+
+
+  
+</section> 
+<section   style="height: 580px;">
+  <h2>Κρασιά</h2><br>
+  <img src="PhotoRoom_004_20230529_201517.PNG" alt="coffee" height="90">
+  <article><p>Mαλαματίνα</p><p style="font-weight:100">3.00&euro;</p></article>
+  <article><p>Γεωργιάδη</p><p style="font-weight:100">3.00&euro;</p></article>
+  <article><p>Κεχριμπάρι</p><p style="font-weight:100;">5.00&euro;</p></article>
+  <article><p>Xύμα Λευκό ποτήρι</p><p style="font-weight:100;">2.50&euro;</p></article>
+  <article><p>Πεντερίδη ποτήρι "Λευκό-Ροζέ"</p><p style="font-weight:100;  height: 57px; padding-top: 10px;">4.00&euro;</p></article>
+  <article><p>Πεντερίδη φιάλη "Λευκό-Ροζέ"</p><p style="font-weight:100; height: 57px; padding-top: 10px;">12.00&euro;</p></article>
+  <article><p>Λευκό Καραμέλο 187ml</p><p style="font-weight:100;">3.50&euro;</p></article>
+  <article><p>Μσχοφίλερο 187ml</p><p style="font-weight:100;">3.50&euro;</p></article>
+
+
+
+  
+</section> 
+<section style="height: 420px;">
+  <h2>Τσίπουρα</h2><br>
+  <img src="PhotoRoom_20230530_103317.PNG" alt="coffee" height="130">
+  <p style="text-align: right; padding-right: 4%;">Ποτήρι&nbsp;&nbsp;Καραφάκι</p>
+  <article><p style="width:52%;">Γράπα</p><p style="font-weight:100; width:38%;">1.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;4.00&euro;</p></article>
+  <article><p style="width:52%;">Τσίπουρο</p><p style="font-weight:100; width:38%;">1.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;4.00&euro;</p></article>
+  <article><p style="width:52%;">Ούζο</p><p style="font-weight:100; width:38%;">1.50&euro;&nbsp;&nbsp;&nbsp;&nbsp;4.00&euro;</p></article>
+  <article><p style="width:52%;">Ούζο Πλωμάρι</p><p style="font-weight:100; width:38%;">2.00&euro;&nbsp;&nbsp;&nbsp;&nbsp;6.50&euro;</p></article>
+  
+
+</section>
+
+
+  </footer>
+   <nav>
+    <p style="background-color: black; color: white; text-align: center;">&copy; Copyright OASI's China Bistro 2023</p>
+   </nav>
+            
+    
+</body>
+</html>
+
+
+
+
+  

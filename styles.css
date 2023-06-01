@@ -1,0 +1,269 @@
+@media(min-width:737px){
+    
+    header{
+        display: none;
+       
+    }
+
+    div{
+        display: none;
+       
+    }
+    
+    main{
+        display: none;
+       
+    }
+    
+    footer{
+        display: none;
+       
+    }
+}
+    
+    
+
+@media(max-width:736px){
+    header a:link{
+		color:black;
+	}
+    aside{
+        display: none;
+    }
+.subnav-content a{
+    border: 1px white solid;
+    margin: 5px;
+    width: 30%;
+    
+}
+.header-container{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 15%;
+   
+}
+div{
+    float:left;
+}
+.logo{
+    text-align: left;
+    width: 32%;
+}
+.name{
+    text-align: center;
+    width:29%;
+    padding-right: 5%;
+    margin-top: 42px;
+    
+}
+.thl{
+    text-align: center;
+    width:29%;
+    padding-right: 5%;
+    margin-top: 22px; 
+}
+.navbar{
+    height: 200px;
+    
+}
+
+    .logo img{
+        height: 100px;
+    }
+    .logo{
+        padding-top: 20px;
+        padding-left: 0px;
+        margin-left: -50px;
+        margin-right: 17%;
+    }
+    .header-container{
+        width: 100%;
+        margin-right: 10%;
+        margin-left: 10%
+    }
+    .thl{
+        margin-left: 2%;
+        margin-right: -100px;
+    
+
+}
+
+
+
+
+main h2{
+    padding-top: 30px;
+}
+
+main section{
+
+    
+    width: 90%;
+    text-align: center;
+    background-color: rgb(245, 245, 245);
+    margin: auto;
+    clear: both;
+    margin-top: 10px;
+    border: 1px solid black;;
+   
+    
+    
+    
+}
+#kafe{
+   
+    clear: both;
+    
+    padding-bottom: 10px;
+   
+}
+main section h2{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width:180px;
+    height: 38px;
+    padding-top: 3px;
+    margin-top: 50px;
+    float:left;
+}
+
+
+
+
+main section article :first-child{
+    font-weight: 500;
+    text-align: left;
+    padding-left: 5%;
+    background-color: white;
+    margin-left: 5%;
+    width:71%;
+    font-size: 19px;
+    
+}
+main section article p:nth-child(2){
+    width: 18%;
+    text-align: right;
+    padding-right: 5%;
+    margin-right: 5%;
+    background-color: white;
+    font-size: 19px;
+}
+
+
+article p{
+    float:left;
+    font-family: "STIX Two Text", Sans-serif;
+  
+}
+
+
+}
+#rof img{
+    position: relative;
+    bottom: 4%;
+    left:4%;
+    
+}
+#anaps img{
+    position: relative;
+    bottom: 3%;
+    left:0%;
+     
+}
+#ximoi img{
+    position: relative;
+    bottom: 5%;
+    left:6%;
+     
+}
+#pota img{
+    position: relative;
+    bottom: 9%;
+    left:10%;
+       
+}
+#mpires img{
+    position: relative;
+    bottom: 3%;
+    left:8%;
+       
+}
+#potatav img{
+    position: relative;
+    bottom: 3%;
+    left:8%;
+       
+}
+
+       
+
+#tsipoura img{
+    position: relative;
+    bottom: 5%;
+    left:2%;
+       
+}
+
+
+
+footer{
+    background-color:rgb(245, 245, 245);
+    
+}
+footer section{
+
+    
+    width: 90%;
+    text-align: center;
+    background-color: white;
+    border: 1px black solid;
+    margin: auto;
+    clear: both;
+    margin-top: 50px;
+    
+    
+    
+    
+}
+footer section article :first-child{
+    font-weight: 500;
+    text-align: left;
+    padding-left: 5%;
+    background-color: rgb(245, 245, 245);
+    margin-left: 5%;
+    width: 71%;
+    font-size: 19px;
+    
+}
+footer section article p:nth-child(2){
+    width: 18%;
+    text-align: right;
+    padding-right: 5%;
+    margin-right: 5%;
+    background-color: rgb(245, 245, 245);
+    font-size: 19px;
+}
+footer section h2{
+    background-color: black;
+    color:  white;
+    text-align: center;
+    width:180px;
+    height: 38px;
+    padding-top: 3px;
+    margin-top: 50px;
+    float:left;
+}
+#salates img{
+    position: relative;
+    bottom: 2%;
+    left:9%;
+        
+}
+#thalassina img{
+    position: relative;
+    bottom: 2%;
+    left:0%;
+        
+        }
+    }
